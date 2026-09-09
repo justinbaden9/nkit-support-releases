@@ -1,7 +1,7 @@
 {
-  "version": "3.1.0",
-  "url": "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.0/NK-IT-Support.exe",
-  "sha256": "F4B60DBE4CC3E73008E980BE01546E3A9A8FE180C6B4C515977F279E327C194E",
-  "size": 70422101,
-  "notes": "Neues Layout ohne Scrollen und Selbstaktualisierung."
+    "version":  "3.1.1",
+    "url":  "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.1/NK-IT-Support.exe",
+    "sha256":  "9FE13DE051C54BD9ABBB793A9857D52AC01A3502D733656F18B951E413C01F42",
+    "size":  70424210,
+    "notes":  "Neu: Anzeige, ob NK IT Service gerade erreichbar ist."
 }
