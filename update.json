@@ -1,7 +1,7 @@
 {
-    "version":  "3.1.1",
-    "url":  "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.1/NK-IT-Support.exe",
-    "sha256":  "9FE13DE051C54BD9ABBB793A9857D52AC01A3502D733656F18B951E413C01F42",
-    "size":  70424210,
-    "notes":  "Neu: Anzeige, ob NK IT Service gerade erreichbar ist."
+    "version":  "3.1.2",
+    "url":  "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.2/NK-IT-Support.exe",
+    "sha256":  "1CD851C970DFA67C9E0A0F216E6A9E377EF5620ACD4A518222AC6EB97A920C50",
+    "size":  55137616,
+    "notes":  "Kleinere Datei: 53 statt 67 MB. Schnellerer Start. Keine Funktionsaenderung."
 }
