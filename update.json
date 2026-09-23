@@ -1,7 +1,7 @@
 {
-    "version":  "3.1.2",
-    "url":  "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.2/NK-IT-Support.exe",
-    "sha256":  "1CD851C970DFA67C9E0A0F216E6A9E377EF5620ACD4A518222AC6EB97A920C50",
-    "size":  55137616,
-    "notes":  "Kleinere Datei: 53 statt 67 MB. Schnellerer Start. Keine Funktionsaenderung."
+    "version":  "3.1.3",
+    "url":  "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.3/NK-IT-Support.exe",
+    "sha256":  "A1EAD20CF3F1C64F9BDF37D7ACE0E5A8231FFAF123FA6EBA48E0A058A2BBDB72",
+    "size":  55101734,
+    "notes":  "Sicherere Selbstaktualisierung: Startet eine neue Fassung nicht, kehrt die Anwendung automatisch zur bisherigen zurück. Die Fernwartung startet nur noch original signierte TeamViewer-Dateien. Zwischenablage und Fenster reagieren jederzeit sofort, und die Fenstergröße passt sich dem jeweiligen Bildschirm an."
 }
