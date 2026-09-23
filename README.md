@@ -1,49 +1,68 @@
-# NK IT Support - Veroeffentlichungen
+# NK IT Support
 
-Dieses Repository enthaelt **keinen Quellcode**. Es dient ausschliesslich dazu,
-die jeweils aktuelle Fassung von **NK IT Support** bereitzustellen.
+Die Support-Anwendung von **NK IT Service** für Windows 10 und Windows 11.
+Fernwartung, Supportanfrage, WhatsApp, Terminbuchung und die wichtigsten
+Angaben zu Ihrem PC – mit einem Klick.
 
-Die Anwendung sieht beim Start in `update.json` nach, ob eine neuere Fassung
-vorliegt, laedt sie gegebenenfalls im Hintergrund und uebernimmt sie beim
-naechsten Start.
+## Herunterladen
 
-## Warum ein eigenes, oeffentliches Repository
+### [⬇ NK IT Support herunterladen](https://github.com/justinbaden9/nkit-support-releases/releases/latest/download/NK-IT-Support.exe)
 
-Waere die Beschreibungsdatei in einem privaten Repository hinterlegt, muesste
-in jeder ausgelieferten EXE ein Zugangsschluessel stecken - und der liesse sich
-dort auslesen. Damit haette jeder Kunde Lesezugriff auf den Quellcode. Deshalb
-liegen hier nur die fertigen Dateien; die Entwicklung bleibt privat.
+Aktuelle Fassung **3.1.3** vom 23.09.2026 · 52,5 MB ·
+eine einzige Datei, keine Installation, kein Administratorkonto nötig.
 
-## Aufbau von update.json
+Link zum Weitergeben – er lädt immer die neueste Fassung:
 
-```json
-{
-  "version": "3.1.0",
-  "url": "https://github.com/justinbaden9/nkit-support-releases/releases/download/v3.1.0/NK-IT-Support.exe",
-  "sha256": "GROSSBUCHSTABEN-HEX",
-  "size": 70422101,
-  "notes": "Kurzer Hinweis, was neu ist."
-}
+```
+https://github.com/justinbaden9/nkit-support-releases/releases/latest/download/NK-IT-Support.exe
 ```
 
-Die Anwendung uebernimmt eine Datei nur, wenn
+## In drei Schritten
 
-- die Adresse mit `https` beginnt,
-- die Pruefsumme exakt stimmt und
-- die Versionsnummer hoeher ist als die laufende Fassung.
+1. Datei herunterladen.
+2. Auf den Desktop ziehen.
+3. Doppelklick – fertig.
 
-Stimmt etwas nicht, bleibt die vorhandene Fassung unveraendert in Betrieb.
+Die Anwendung hält sich danach selbst aktuell. Neue Fassungen lädt sie still
+im Hintergrund und übernimmt sie beim nächsten Start.
 
-## Eine neue Fassung veroeffentlichen
+## Falls Windows oder der Browser nachfragt
 
-1. Im Entwicklungsprojekt die Version in `NKITSupport.csproj` erhoehen und
-   `build.ps1` ausfuehren.
-2. Ein Release mit dem Kennzeichen `vX.Y.Z` anlegen und die EXE als
-   `NK-IT-Support.exe` anhaengen.
-3. `update.json` in diesem Zweig auf die neue Version, Adresse und Pruefsumme
-   setzen.
+Die Datei ist noch nicht digital signiert. Deshalb können beim ersten Mal zwei
+Rückfragen erscheinen:
 
-Erst Schritt 3 macht die Fassung fuer die Kunden sichtbar. Bis dahin passiert
-nichts - damit laesst sich eine Veroeffentlichung in Ruhe vorbereiten.
+- **Der Browser** meldet, die Datei werde selten heruntergeladen:
+  „Beibehalten“ wählen.
+- **Windows** zeigt „Der Computer wurde durch Windows geschützt“:
+  auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“ klicken.
 
-(c) NK IT Service
+Unsicher? Rufen Sie uns an, bevor Sie die Datei öffnen.
+
+## Neu in dieser Fassung
+
+Sicherere Selbstaktualisierung: Startet eine neue Fassung nicht, kehrt die Anwendung automatisch zur bisherigen zurück. Die Fernwartung startet nur noch original signierte TeamViewer-Dateien. Zwischenablage und Fenster reagieren jederzeit sofort, und die Fenstergröße passt sich dem jeweiligen Bildschirm an.
+
+## Prüfsumme
+
+Wer die Datei nachprüfen möchte – SHA256:
+
+```
+A1EAD20CF3F1C64F9BDF37D7ACE0E5A8231FFAF123FA6EBA48E0A058A2BBDB72
+```
+
+In PowerShell: `Get-FileHash .\NK-IT-Support.exe`
+
+## Datenschutz
+
+Die angezeigten Geräteangaben bleiben auf Ihrem PC. Die Anwendung sendet von
+sich aus keine Daten über Sie oder Ihren Rechner. Sie prüft beim Start
+lediglich, ob eine neuere Fassung vorliegt.
+
+---
+
+**NK IT Service** · Telefon und WhatsApp 07222-5949890 ·
+support@nk-it.de · [www.nk-it.de](https://www.nk-it.de/)
+
+<sub>Dieses Verzeichnis enthält ausschließlich die fertigen Programmdateien und
+die Beschreibungsdatei `update.json`, über die sich die Anwendung aktualisiert.
+Der Quellcode wird getrennt geführt.</sub>
